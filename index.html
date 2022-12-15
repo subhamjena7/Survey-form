@@ -1,0 +1,41 @@
+<!-- Survey Form Using HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Project-1</title>
+</head>
+<body>
+    <h1>Employee Intrests Survey Form</h1>
+    <hr>
+    <form action="">
+        <label for="name">Enter Your Name : </label><input id="name" type="text"><br><br>
+        <label for="dep">Enter Your Department : </label><input id="dep" type="text"><br><br>
+        <label for="aboutyourself">Tells a little about yourself : </label><textarea name="aboutyourself" id="aboutyourself" cols="20" rows="5"></textarea><br><br>
+        <hr>
+
+        <p>Do you exercise at home ?</p>
+        <label for="yes">Yes</label><input id="yes" name="exercise" type="radio" value="yes">
+        <label for="no">No</label><input id="no" name="exercise" type="radio" value="no"><br><br>
+        <hr>
+
+        <p>How do you like to read your favourite topics ?</p>
+        <label for="books">Books</label><input id="books" name="topics" type="radio" value="books">
+        <label for="web">Online resources</label><input id="web" name="topics" type="radio" value="web">
+        <label for="apps">Phone Apps</label><input id="apps" name="topics" type="radio" value="apps">
+        <label for="paper">Magazines</label><input id="paper" name="topics" type="radio" value="paper"><br><br><hr>
+
+        <label for="movies">What gener of movies do you like ?</label><select name="movies" id="movies">
+            <option value="comedy">Comedy</option>
+            <option value="romance">Romance</option>
+            <option value="thriller">Thriller</option>
+            <option value="biopic">Biopic</option>
+            <option value="horror">Horror</option>
+        </select><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
